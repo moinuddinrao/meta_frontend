@@ -1,0 +1,93 @@
+/* styles.css */
+
+/* Reset default browser styles */
+body {
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  text-align: center;
+  width: 500px;
+  height: auto;
+}
+
+/* Navigation */
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 50px;
+}
+
+nav ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: #f50000;
+}
+
+/* Main Content */
+
+/* Banner */
+.banner {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.column {
+  text-align: center;
+}
+
+.column img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-column {
+  text-align: center;
+}
+
+.footer-column img {
+  width: 50px;
+  height: auto;
+}
